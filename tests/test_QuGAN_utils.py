@@ -1,5 +1,5 @@
 from unittest import TestCase
-from QuGAN_utils import *
+from QuGAN import *
 from qiskit import Aer
 
 D, D_params = create_QuGAN_ansatz(n_qubits=3, n_layer=4, param_label='D', register_label='d', out_reg_index=2)
